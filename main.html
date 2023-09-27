@@ -5,32 +5,101 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 	<tittle>HTML Assignment 3</tittle>
+	<style>
+		#table-1{
+			width:100%;
+			border:1px solid black;
+			spacing:1px;
+			padding:1px;
+		}
+		.center{
+			text-align:center;
+		}
+		.right{
+			text-align:right;
+		}
+
+
+		#table-2{
+			height:100px;
+			width:100%;
+			border:1px solid black;
+			spacing:1px;
+			padding:1px;
+		}
+			#table-3{
+			height:100px;
+			width:100%;
+			border:1px solid black;
+			spacing:1px;
+			padding:1px;
+		}
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-
+<!--        Heading of the page -->
 	<h1><center>HTML Assignment #3</center></h1>
 
-	<table style="width:100%" border="1px">
+<!-- 	First Table -->
+	<table id="table-1">
 		<tr>
-			<td>left</td>
+			<td id="t11">left</td>
 			<td class="center">center</td>
 			<td class="right">right</td>
 		</tr>
 		<tr>
-			<td>left</td>
+			<td id="t12">left</td>
 			<td class="center">center</td>
 			<td class="right">right</td>
 		</tr>
 		<tr>
-			<td>left</td>
+			<td id="t13">left</td>
 			<td class="center">center</td>
 			<td class="right">right</td>
 		</tr>
+	</table><br><br>
+<!-- 	Second Table -->
+	<table id="table-2">
+		<tr>
+			<td id="t21" colspan="6"></td>
+		</tr>
+		<tr>
+			<td rowspan="4"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td colspan="3" rowspan="2"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td colspan="6"></td>
+		</tr>
+	</table><br><br>
+
+<!-- 	Third Table -->
+	<table id="table-3">
+		<tr></tr>
+		<tr id="t-image"></tr>
+		<tr></tr>
 	</table>
-	<table></table>
-	<table></table>
     <script type="text/javascript" src="./script.js">
 </script>
 
